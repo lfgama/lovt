@@ -32,13 +32,14 @@ header .logo h1 {
     display: inline-block;
     color: #777;
     font-size: 40px;
+    font-weight: lighter;
 }
 
 header .logo h2 {
     display: inline-block;
     color: #777;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: lighter;
 }
 
 main section.banner .slide img {
@@ -136,6 +137,12 @@ main section.styles article {
     position: relative;
     margin: 20px 0;
     border-radius: 10px;
+}
+
+main section.styles h2 {
+    text-align: center;
+    color: #888888;
+    font-size: 25px;
 }
 
 main section.styles article h3 {
