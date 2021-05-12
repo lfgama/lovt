@@ -215,6 +215,21 @@ footer iframe {
     max-width: 100%;
 }
 
+.main-form {
+    padding: 100px 0;
+}
+
+/* Estilo para botão */
+
+.btn-primary {
+    background-color: #DC9730;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
 .contactinfo {
     font-size: 12px;
 }
