@@ -19,8 +19,8 @@
         </div>
     </header>
     <main>
-        <div class="container"></div>
-        <form action="./form-sucesso.html">
+        <div class="container" id="form-interesse"></div>
+        <form class="form-interesse" action="./form-sucesso.html">
             <p>
             <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome">
@@ -40,6 +40,8 @@
             </p>
             <p>
                 <label>Pet Friendly</label>
+            </p>
+            <p>
                 <input type="radio" name="petfriendly" id="sim" value="Sim"><label for="sim">Sim</label>
                 <input type="radio" name="petfriendly" id="nao" value="Não"><label for="nao">Não</label>
             </p>
@@ -59,7 +61,7 @@
             <textarea name="observacoes" id="observacoes"></textarea>
             </p>
             <p>
-                <button type="submit">Enviar</button>
+                <button class="enviar-form-interesse" type="submit">Enviar</button>
             </p>
         </div>
         </form>

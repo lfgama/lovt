@@ -234,6 +234,26 @@ footer iframe {
     font-size: 12px;
 }
 
+.form-interesse {
+    width: 100%;
+    padding: 5px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.enviar-form-interesse {
+    width: 250px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #DC9730;
+    color: #fff;
+    border: nome;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-family: 'Ropa Sans' , sans-serif;
+    cursor: pointer;
+}
+
 @media (max-width: 900px) {
     .container {
         padding: 0 40px;
