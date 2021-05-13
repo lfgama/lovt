@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Tenho Interesse</title>
+    <title>Quero um loft!</title>
 </head>
 <body>
     <header>
@@ -18,9 +18,10 @@
             <button class="menu-toggle">☰</button>
         </div>
     </header>
-    <main>
+    <main class="main-form">
         <div class="container">
-        <form class="form-interesse" action="./form-sucesso.html">
+        <h1>Quero um Loft!</h1>
+        <form action="./form-sucesso.html">
             <p>
             <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome">
@@ -39,14 +40,12 @@
                 <input type="checkbox" name="contrato" id="compra" value="Compra"><label for="compra">Compra</label>
             </p>
             <p>
-                <label>Pet Friendly</label>
-            </p>
-            <p>
+                <label>Pet Friendly</label><br>
                 <input type="radio" name="petfriendly" id="sim" value="Sim"><label for="sim">Sim</label>
                 <input type="radio" name="petfriendly" id="nao" value="Não"><label for="nao">Não</label>
             </p>
             <p>
-                <label>Região</label>
+                <label>Região</label><br>
                 <select name="regiao">
                 <option selected disabled>Selecione uma opção</option>
                 <option value="Centro">Centro</option>
@@ -57,11 +56,11 @@
             </select>
             </p>
             <p>
-            <label for="observacoes">Observações</label>
+            <label for="observacoes">Observações</label><br>
             <textarea name="observacoes" id="observacoes"></textarea>
             </p>
             <p>
-                <button class="enviar-form-interesse" type="submit">Enviar</button>
+                <button type="submit" class="btn-primary">Enviar</button>
             </p>
         </div>
         </form>
